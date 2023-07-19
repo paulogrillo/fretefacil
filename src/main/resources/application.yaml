@@ -7,8 +7,8 @@ server:
 #  servlet:
 #    context-path: /v1
 
-
 eureka:
   client:
-    service-url:
-      defaultZone: http://eureka-img:8081/eureka/
+    enabled: true
+    fetch-registry: true
+    register-with-eureka: true

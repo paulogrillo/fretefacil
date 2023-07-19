@@ -14,7 +14,7 @@ public class FretefacilApplication {
     public static void main(String[] args) {
         SpringApplication.run(FretefacilApplication.class, args);
     }
-    @GetMapping("/new-account")
+    @GetMapping("/test")
     public String getController(){
         return "Hello Wolrd!";
     }
